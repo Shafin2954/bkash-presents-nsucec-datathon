@@ -9,10 +9,10 @@ End-to-end churn-prediction pipeline on a synthetic mobile-wallet dataset at 73M
 
 | Metric | Value |
 |---|---|
-| 5-fold OOF AUC-ROC (final blend) | **0.9853** |
-| Average Precision | 0.916 |
-| Precision @ top 10% | 0.910 |
-| Recall @ top 10% | 0.717 |
+| 5-fold OOF AUC-ROC (final blend) | **0.9852** |
+| Average Precision | 0.926 |
+| Precision @ top 10% | 0.918 |
+| Recall @ top 10% | 0.724 |
 
 Four independent model families (LightGBM, XGBoost, CatBoost, a per-event Transformer) converge at ~0.985 OOF. Train and test are confirmed identically distributed (adversarial AUC 0.52), so OOF tracks the leaderboard.
 
